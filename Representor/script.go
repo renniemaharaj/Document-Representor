@@ -1,4 +1,4 @@
-package webapps
+package Representor
 
 //Scripts tag represents the entire script section of a document head
 type Scripts struct {

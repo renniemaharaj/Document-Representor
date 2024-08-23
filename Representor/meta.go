@@ -1,4 +1,4 @@
-package webapps
+package Representor
 
 // MetaTag represents a meta tag in the HTML head.
 type MetaTag struct {

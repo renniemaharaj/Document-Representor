@@ -1,4 +1,4 @@
-package webapps
+package Representor
 
 //This function calls BlankDocument function, adds on typical meta tags and returns a new HtmlDocument.
 func DefaultDocument() HtmlDocument {

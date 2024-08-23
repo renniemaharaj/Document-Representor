@@ -1,4 +1,4 @@
-package webapps
+package Representor
 
 //Links struct represents the entire links section of a document head.
 type Links struct {

@@ -1,12 +1,12 @@
 package main
 
 import (
-	"dynaweb/webapps"
+	Representor "dynaweb/representor"
 )
 
 func main() {
 	// println("Beginning Entry")
-	document := webapps.DefaultDocument()
+	document := Representor.DefaultDocument()
 	document.Head.Title = "Document Representor!"
 	document.Head.Description = "AI Generated html file! let;s gooo"
 	document.Head.Author = "WEBAPPS"
