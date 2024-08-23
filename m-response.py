@@ -12,11 +12,11 @@ def generate():
   model = GenerativeModel(
     "gemini-1.5-flash-001",
   )
-
+  promt = "Please generate html markup for this. Please do not generate accompanying text of any sort"
   input_data = sys.argv[1]
-  content = json.loads(input_data)
+  # content = json.loads(input_data.replace("'","\""))
   responses = model.generate_content(
-      ["Please generate html markup for this.", content],
+      [promt, input_data],
       generation_config=generation_config,
       safety_settings=safety_settings,
       stream=True,
